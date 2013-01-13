@@ -37,4 +37,9 @@ public class Queue<E>
     {
         return list.removeFirst();
     }
+
+    public boolean isEmpty()
+    {
+        return list.isEmpty();
+    }
 }

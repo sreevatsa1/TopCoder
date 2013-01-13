@@ -33,4 +33,9 @@ public class Stack<E>
     {
         return list.removeLast();
     }
+
+    public boolean isEmpty()
+    {
+        return list.isEmpty();
+    }
 }
